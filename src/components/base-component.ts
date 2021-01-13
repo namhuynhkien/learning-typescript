@@ -31,7 +31,7 @@ export default abstract class Component<
 
   private attach(insertAtStart: boolean) {
     this.hostElement.insertAdjacentElement(
-      insertAtStart ? "afterbegin" : "beforeend",
+      insertAtStart ? 'afterbegin' : 'beforeend',
       this.element
     );
   }
